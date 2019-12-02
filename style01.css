@@ -1,0 +1,43 @@
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#row1 {
+    color: green;
+    font-size: 20px;
+}
+
+.row {
+    color: blue;
+    height: 3em;
+}
+
+ul > li {
+    width: 26px;
+    height: 26px;
+    border: 1px solid black;
+}
+
+ul > li:nth-child(1) {
+    background-image: url("bordergrid.png");
+    background-repeat: no-repeat;
+}
+
+ul > li:nth-child(2) {
+    background-image: url("bordergrid.png");
+    background-repeat: no-repeat;
+    background-position: -26px 0;
+}
+
+ul > li:nth-child(3) {
+    background-image: url("bordergrid.png");
+    background-repeat: no-repeat;
+    background-position: -52px 0;
+}
+
+ul > li:nth-child(4) {
+    background-image: url("bordergrid.png");
+    background-repeat: no-repeat;
+    background-position: 0 -26px;
+}

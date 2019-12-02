@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div#outside {
+            width: 100%;
+            height: 1000px;
+            /*position: absolute;*/
+            border: 1px solid red;
+        }
+
+        div#inside_01 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background: green;
+        }
+
+        div#inside_02 {
+            width: 200px;
+            height: 200px;
+            background: coral;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+
+        div#inside_03 {
+            width: 200px;
+            height: 200px;
+            background: hotpink;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+<div id="outside">
+    <div id="inside_01">
+        <div id="inside_02">
+            <div id="inside_03"></div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

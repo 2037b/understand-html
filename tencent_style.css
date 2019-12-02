@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    color: white;
+    font-weight: lighter;
+    /*overflow: hidden;*/
+    background: rgb(182, 51, 21);
+    padding: 0;
+    margin-top: 5px;
+}
+
+li {
+    /*color: white;*/
+    /*float: left;*/
+    margin-left: 1%;
+    display: inline-block;
+    text-align: center;
+    font-size: smaller;
+    background-image: url("line.png");
+    background-repeat: no-repeat;
+}
+
+ul>li:first-child {
+    margin-left: 1%;
+    background-image: none;
+}
+
+li:nth-child(even) {
+    background-image: url("line.png");
+    background-repeat: no-repeat;
+}

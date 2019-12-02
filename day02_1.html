@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>样式的继承</title>
+    <style>
+        li#row1 {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        li#row2 {
+            font-style: oblique;
+            color: red
+        }
+        li#row3{
+            font-style: italic;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<p>
+<ul>
+    <li>第一行</li>
+    <li id="row1">第二行</li>
+</ul>
+</p><p>
+<ul>
+    <li>第三行</li>
+    <li id="row2">第四行</li>
+</ul>
+</p><p>
+<ul>
+    <li>第五行</li>
+    <li id="row3">第六行</li>
+</ul>
+</p>
+</body>
+</html>
